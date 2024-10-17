@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="one"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 02:52:00 AM"/>
+        <attribute name="created" value="SFA7RUwtQkFEUlk7MjAyNC0xMC0xNjswMjozOTowNSBBTTsxOTc2"/>
+        <attribute name="edited" value="SFA7RUwtQkFEUlk7MjAyNC0xMC0xNjswMjo1MjowMCBBTTsxOzIwNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <assign variable="j" expression="30"/>
+            <while expression="i != 12">
+                <forward expression="25" pen="down"/>
+                <turn expression="90" rotate="right"/>
+                <forward expression="10" pen="down"/>
+                <home/>
+                <turn expression="j" rotate="right"/>
+                <assign variable="j" expression="j + 30"/>
+                <assign variable="i" expression="i +1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="If condition"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 03:18:19 AM"/>
+        <attribute name="created" value="SFA7RUwtQkFEUlk7MjAyNC0xMC0xNjswMzoxNjo0OCBBTTsxOTc5"/>
+        <attribute name="edited" value="SFA7RUwtQkFEUlk7MjAyNC0xMC0xNjswMzoxODoxOSBBTTsxOzIwODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <input variable="i"/>
+            <input variable="j"/>
+            <if expression="i == j">
+                <then>
+                    <output expression="&quot;Yes&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

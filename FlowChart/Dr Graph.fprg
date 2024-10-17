@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Dr Graph"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 03:24:04 AM"/>
+        <attribute name="created" value="SFA7RUwtQkFEUlk7MjAyNC0xMC0xNjswMzoyMDoxMyBBTTsxOTY2"/>
+        <attribute name="edited" value="SFA7RUwtQkFEUlk7MjAyNC0xMC0xNjswMzoyNDowNCBBTTsxOzIwNzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <pen color="yellow"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <while expression="i != 50">
+                <forward expression="i" pen="down"/>
+                <turn expression="45" rotate="right"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
